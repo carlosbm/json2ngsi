@@ -12,5 +12,8 @@
   "dependencies": {
     "ngsi-parser": "github:carlosbm/ngsi-parser",
     "optimist": "^0.6.1"
+  },
+  "bin": {
+    "json2ngsi": "./json2ngsi"
   }
 }
