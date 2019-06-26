@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 module.exports = json2ngsi
 var argv = require('optimist').argv;
 var fs   = require('fs');
