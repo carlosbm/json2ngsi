@@ -5,7 +5,7 @@ var ngsi = require('ngsi-parser');
 
 var index = 0;
 
-function main () {
+function json2ngsi () {
     var files = argv._;
     var readOption = { encoding: 'utf8' };
 
