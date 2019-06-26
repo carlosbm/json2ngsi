@@ -1,3 +1,4 @@
+module.exports = json2ngsi
 var argv = require('optimist').argv;
 var fs   = require('fs');
 var ngsi = require('ngsi-parser');
