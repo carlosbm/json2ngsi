@@ -14,6 +14,6 @@
     "optimist": "^0.6.1"
   },
   "bin": {
-    "json2ngsi": "./json2ngsi"
+    "json2ngsi": "./json2ngsi.js"
   }
 }
