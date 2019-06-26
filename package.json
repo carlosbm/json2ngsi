@@ -1,0 +1,16 @@
+{
+  "name": "json2ngsi",
+  "version": "1.0.0",
+  "description": "Json to NGSIv2 entity converter",
+  "main": "json2ngsi.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "ngsi-parser": "github:carlosbm/ngsi-parser",
+    "optimist": "^0.6.1"
+  }
+}
