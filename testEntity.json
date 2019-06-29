@@ -1,0 +1,14 @@
+{
+    "id": "identifier",
+    "type": "TestEntity",
+    "myDate": "2011-10-05T14:48:00.000Z",
+    "refEntity": "urn:ngsi-ld:RefEntity:550e8400-e29b-41d4-a716-446655440000",
+    "structuredObject": {
+        "hello": "world"
+    },
+    "structuredArrray": [
+        "one",
+        "two",
+        "three"
+    ]
+}

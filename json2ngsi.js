@@ -13,16 +13,9 @@ function json2ngsi () {
     var readFunc;
     readFunc = function (err, data) {
         console.log(JSON.stringify(ngsi.parseEntity(JSON.parse(data))));
-	
-
-       /* var nextFile = files.shift();
-        if (nextFile !== undefined) {
-            fs.readFile(nextFile, readOption, readFunc);
-        }
-*/
     };
 
     fs.readFile(files[0], readOption, readFunc);
 }
 
-main();
+json2ngsi();
